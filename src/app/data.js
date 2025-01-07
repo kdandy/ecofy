@@ -24,3 +24,27 @@ export const features = [
     routeLink: "/blog",
   },
 ];
+
+export const artikelEdukasi = [
+  {
+    title: "Berita 1",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris vel metus gravida efficitur.",
+    link: "/berita1",
+    thumbnail: "/featuredNews1.jpg",
+  },
+  {
+    title: "Berita 2",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris vel metus gravida efficitur.",
+    link: "/berita2",
+    thumbnail: "/featuredNews2.jpg",
+  },
+  {
+    title: "Berita 3",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel mauris vel metus gravida efficitur.",
+    link: "/berita3",
+    thumbnail: "/featuredNews3.jpg",
+  },
+];
