@@ -4,6 +4,7 @@ export default function Home() {
   return (
    <>
     <Hero />
+    <div className="bg-black h-[100vh]"></div>
    </>
   );
 }
