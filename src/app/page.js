@@ -1,10 +1,11 @@
 import Hero from "@/components/section/Hero";
+import Features from "@/components/section/Features";
 
 export default function Home() {
   return (
    <>
     <Hero />
-    <div className="bg-black h-[100vh]"></div>
+    <Features />
    </>
   );
 }

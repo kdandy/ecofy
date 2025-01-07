@@ -1,5 +1,4 @@
 import React from "react";
-import StickyWrapper from "../custom/StickyComponent";
 import CustomContainer from "../custom/CustomContainer";
 import Link from "next/link";
 
