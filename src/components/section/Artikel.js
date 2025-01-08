@@ -9,7 +9,7 @@ const Artikel = () => {
   return (
     <div className="py-[15vh]">
       <CustomContainer>
-        <h1 className="text-primary text-6xl font-bold">Artikel Edukasi</h1>
+        <h1 className="title">Artikel Edukasi</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
           {artikelEdukasi.map((berita) => (
             <BlogCard

@@ -79,3 +79,7 @@
     background-image: url('/bg-mobile.svg');
   }
 }
+
+.title {
+  @apply text-primary text-6xl font-bold;
+}

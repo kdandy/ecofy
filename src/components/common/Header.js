@@ -21,7 +21,7 @@ const Header = () => {
           </li>
           <li className="group relative">
             <Link
-              href="#"
+              href="/tentang"
               className="text-black transition ease-in-out duration-[5ms] group-hover:text-primary"
             >
               Tentang
