@@ -30,19 +30,19 @@ const Header = () => {
           </li>
           <li className="group relative">
             <Link
-              href="#"
+              href="artikel"
               className="text-black transition ease-in-out duration-[5ms] group-hover:text-primary"
             >
-              Berita
+              Artikel
             </Link>
             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
           </li>
           <li className="group relative">
             <Link
-              href="#"
+              href="/event"
               className="text-black transition ease-in-out duration-[5ms] group-hover:text-primary"
             >
-              Kontak
+              Event
             </Link>
             <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
           </li>

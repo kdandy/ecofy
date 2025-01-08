@@ -7,7 +7,7 @@ const Events = () => {
   return (
     <div className="pb-[15vh]">
       <CustomContainer>
-        <h1 className="text-primary text-6xl font-bold">Upcoming Events</h1>
+        <h1 className="title">Upcoming Events</h1>
         <h2 className="text-green1 text-4xl my-8 font-bold">
           Events this month
         </h2>
