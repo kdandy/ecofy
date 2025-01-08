@@ -17,6 +17,7 @@ const EventParent = ({ events }) => {
                   description={event.description}
                   organizer={event.organizer}
                   link={event.link}
+                  thumbnail={event.thumbnail}
                 />
               ))}
             </div>

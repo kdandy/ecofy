@@ -3,13 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const EventCard = ({ title, description, organizer, link }) => {
+const EventCard = ({ title, description, organizer, link, thumbnail }) => {
   return (
     <>
       <div className="border-l-4 mt-2 ml-8 pl-8">
         <h4 className="text-4xl font-bold mb-4 capitalize">{title}</h4>
         <Image
-          src="/featuredNews1.jpg"
+          src={`${thumbnail}`}
           alt="features image"
           width="0"
           height="0"
