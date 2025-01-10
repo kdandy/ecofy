@@ -9,14 +9,32 @@ const AboutArtikelEdukasi = () => {
     <div className="text-left mb-[20vh]">
       <CustomContainer className="flex items-center justify-between">
         <div className="max-w-[50%]">
-          <Image
-            src={`/about-artikel.jpg`}
-            alt="features image"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-auto h-auto rounded-xl"
-          />
+          <div className="relative">
+            <Image
+              src={`/about/artikel1.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="h-auto rounded-xl absolute w-[45%] bottom-[-20%] left-[-25%]"
+            />
+            <Image
+              src={`/about/artikel2.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-auto h-auto rounded-xl"
+            />
+            <Image
+              src={`/about/artikel3.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="h-auto rounded-xl absolute w-[45%] top-[-20%] right-[-15%]"
+            />
+          </div>
         </div>
         <div className="ml-5">
           <h1 className="title">Artikel Edukasi</h1>

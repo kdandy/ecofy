@@ -6,17 +6,35 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutJejakKarbon = () => {
   return (
-    <div className="text-left mb-[20vh]">
+    <div className="text-left mb-[25vh]">
       <CustomContainer className="flex items-center justify-between">
         <div className="max-w-[50%]">
-          <Image
-            src={`/about-artikel.jpg`}
-            alt="features image"
-            width="0"
-            height="0"
-            sizes="100vw"
-            className="w-auto h-auto rounded-xl"
-          />
+          <div className="relative">
+            <Image
+              src={`/about/carbon2.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="h-auto rounded-xl absolute w-[45%] bottom-[-15%] left-[-10%]"
+            />
+            <Image
+              src={`/about/carbon1.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="w-auto h-auto rounded-xl"
+            />
+            <Image
+              src={`/about/carbon3.jpg`}
+              alt="features image"
+              width="0"
+              height="0"
+              sizes="100vw"
+              className="h-auto rounded-xl absolute w-[45%] top-[-15%] right-[-15%]"
+            />
+          </div>
         </div>
         <div className="ml-5">
           <h1 className="title">Jejak Karbon</h1>
