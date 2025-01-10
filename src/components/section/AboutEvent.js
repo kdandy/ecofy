@@ -34,7 +34,7 @@ const AboutEvent = () => {
               width="0"
               height="0"
               sizes="100vw"
-              className="h-auto rounded-xl absolute w-[45%] bottom-[-20%] left-[-20%]"
+              className="h-auto rounded-xl absolute w-[45%] top-[-20%] left-[-20%]"
             />
             <Image
               src={`/about/event1.jpg`}
@@ -50,7 +50,7 @@ const AboutEvent = () => {
               width="0"
               height="0"
               sizes="100vw"
-              className="h-auto rounded-xl absolute w-[45%] top-[-20%] right-[-15%]"
+              className="h-auto rounded-xl absolute w-[45%] bottom-[-20%] right-[-15%]"
             />
           </div>
         </div>
