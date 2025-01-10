@@ -13,7 +13,7 @@ const FeaturesCard = ({ imageLink, title, description, routeLink }) => {
           width="0"
           height="0"
           sizes="100vw"
-          className="w-auto h-auto rounded-xl"
+          className="w-auto h-auto md:min-w-[600px] rounded-xl"
         />
       </div>
       <div className="md:ml-5 mt-4">
