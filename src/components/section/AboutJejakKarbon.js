@@ -6,9 +6,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutJejakKarbon = () => {
   return (
-    <div className="text-left mb-[25vh]">
-      <CustomContainer className="flex items-center justify-between">
-        <div className="max-w-[50%]">
+    <div className="text-left mb-[10vh] md:mb-[20vh]">
+      <CustomContainer className="flex flex-col md:flex-row items-center justify-between">
+        <div className="md:max-w-[50%] mb-24 md:mb-0">
           <div className="relative">
             <Image
               src={`/about/carbon2.jpg`}
@@ -36,7 +36,7 @@ const AboutJejakKarbon = () => {
             />
           </div>
         </div>
-        <div className="ml-5">
+        <div className="md:ml-16">
           <h1 className="title">Jejak Karbon</h1>
           <p className="my-6 font-medium text-lg max-w-[500px]">
             Fitur ini membantu pengguna menghitung dan memantau jejak karbon

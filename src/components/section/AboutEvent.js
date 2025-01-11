@@ -6,8 +6,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutEvent = () => {
   return (
-    <div className="text-left mb-[25vh]">
-      <CustomContainer className="flex items-center justify-between">
+    <div className="text-left mb-[10vh] md:mb-[20vh]">
+      <CustomContainer className="flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="">
           <h1 className="title">Event</h1>
           <p className="my-6 font-medium text-lg max-w-[500px]">
@@ -26,7 +26,7 @@ const AboutEvent = () => {
             <FaArrowRightLong className="ml-2 transition-all group-hover:ml-4" />
           </Link>
         </div>
-        <div className="max-w-[50%] ml-5">
+        <div className="md:max-w-[50%] mb-24 md:mb-0 md:ml-5">
           <div className="relative">
             <Image
               src={`/about/event2.jpg`}

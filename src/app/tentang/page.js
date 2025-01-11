@@ -7,14 +7,14 @@ import LoadingPage from "@/components/custom/LoadingPage";
 
 const Tentang = () => {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <LoadingPage />
       <div className="mt-40"></div>
       <AboutEcofy />
       <AboutArtikelEdukasi />
       <AboutEvent />
       <AboutJejakKarbon />
-    </>
+    </div>
   );
 };
 

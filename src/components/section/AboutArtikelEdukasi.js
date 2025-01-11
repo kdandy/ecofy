@@ -7,13 +7,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const AboutArtikelEdukasi = () => {
   return (
     <div className="text-left mb-[20vh]">
-      <CustomContainer className="flex items-center justify-between">
-        <div className="max-w-[50%]">
+      <CustomContainer className="flex flex-col md:flex-row items-center justify-between">
+        <div className="md:max-w-[50%] mb-24 md:mb-0">
           <div className="relative">
             <Image
               src={`/about/artikel1.jpg`}
               alt="features image"
               width="0"
+              overflow-hidden
               height="0"
               sizes="100vw"
               className="h-auto rounded-xl absolute w-[45%] bottom-[-20%] left-[-25%]"
@@ -36,7 +37,7 @@ const AboutArtikelEdukasi = () => {
             />
           </div>
         </div>
-        <div className="ml-5">
+        <div className="md:ml-16">
           <h1 className="title">Artikel Edukasi</h1>
           <p className="my-6 font-medium text-lg max-w-[500px]">
             Perpustakaan digital yang menyajikan artikel, tips, dan panduan
