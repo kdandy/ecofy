@@ -1,61 +1,62 @@
-'use client';
+"use client";
 
 import Link from "next/link";
-import { motion } from 'framer-motion';
-import React from 'react';
+import { motion } from "framer-motion";
+import React from "react";
+import CustomContainer from "../custom/CustomContainer";
+import HeroCard1 from "../custom/HeroCard1";
 
 const Hero = () => {
-  const phrases = ['Ukur Jejak,', 'Kurangi Dampak,', 'Selamatkan Bumi!'];
+  const phrases = ["Ukur Jejak,", "Kurangi Dampak,", "Selamatkan Bumi!"];
 
   const textVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1, 
+        staggerChildren: 0.1,
       },
     },
   };
 
   const letterVariants = {
     hidden: { opacity: 0 },
-    visible: { 
+    visible: {
       opacity: 1,
-      transition: { duration: 0.5 }, 
+      transition: { duration: 0.5 },
     },
   };
 
   return (
     <>
-      <div className="pt-[7vh] flex md:flex-row flex-col items-center px-[25px] sm:px-[60px] justify-center h-[calc(100vh-80px)]">
-        <div className="flex items-center md:items-start flex-col md:ml-[5vw] w-full mx-[20px]">
-          <motion.div
-            className="text-[2.2rem] sm:text-[3rem] md:text-[3.5rem] font-semibold text-center md:text-left"
-            variants={textVariants}
-            initial="hidden"
-            animate="visible"
-          >
-            {phrases.map((phrase, index) => (
-              <React.Fragment key={index}>
-                {phrase.split('').map((letter, letterIndex) => (
-                  <motion.span
-                    key={`${index}-${letterIndex}`}
-                    variants={letterVariants}
-                    className="inline-block"
-                    style={{ display: 'inline-block' }}
-                  >
-                    {letter === ' ' ? '\u00A0' : letter}
-                  </motion.span>
-                ))}
-                <br />
-              </React.Fragment>
-            ))}
-          </motion.div>
-          <Link href="/calculator/home" className="bg-green-800 px-12 py-6 my-6 block rounded-full font-semibold text-2xl sm:text-3xl md:text-4xl hover:shadow-2xl transition">
-            Hitung Carbon
-          </Link>
+      <CustomContainer className="text-center pb-[25vh] pt-[120px] flex items-center justify-center">
+        <div className="">
+          <h1 className="text-6xl font-medium z-20">
+            Ukur Jejak Kurangi Dampak
+          </h1>
+          <p className="text-2xl mt-8 font-normal z-20">
+            Lorem ipsum dor sit amat pale lu memek.
+          </p>
+          <div className="flex justify-center items-center mt-8 gap-4 z-20">
+            <Link
+              href=""
+              className="bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
+            >
+              <button>button 1</button>
+            </Link>
+            <Link
+              href=""
+              className="bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
+            >
+              <button>button 1</button>
+            </Link>
+          </div>
+          <div className="flex">
+            <HeroCard1 position="right" />
+            <HeroCard1 />
+          </div>
         </div>
-      </div>
+      </CustomContainer>
     </>
   );
 };
