@@ -8,28 +8,29 @@ import Image from "next/image";
 import { artikelEdukasi } from "@/app/data";
 
 const ArtikelRoute = () => {
-  const params = useParams();
-  const findArtikelById = (id) => {
-    return artikelEdukasi.find((artikel) => artikel.id === Number(id));
-  };
-  const body = findArtikelById(params.slug);
+  const { slug } = useParams();
+  const artikel = artikelEdukasi.find(({ id }) => id === Number(slug));
 
-  return body ? (
+  if (!artikel) {
+    return <h1>Not Found</h1>;
+  }
+
+  return (
     <div>
       <CustomContainer customWidth="max-w-[1160px]">
         <LoadingPage />
         <div className="mt-40"></div>
-        <h1 className="title">{body.title}</h1>
+        <h1 className="title">{artikel.title}</h1>
         <p className="mt-2 mb-12 font-medium text-primary text-xl">
-          Published on {body.date || "Unknown Date"}
+          Published on {artikel.date || "Unknown Date"}
         </p>
       </CustomContainer>
       <CustomContainer customWidth="max-w-[1260px]">
         <Image
-          src={`/features1.jpg`}
+          src="/features1.jpg"
           alt="features image"
-          width="0"
-          height="0"
+          width={0}
+          height={0}
           sizes="100vw"
           className="w-full h-auto rounded-xl"
         />
@@ -37,14 +38,10 @@ const ArtikelRoute = () => {
       <CustomContainer customWidth="max-w-[1160px]">
         <div
           className="artikel-content"
-          dangerouslySetInnerHTML={{
-            __html: body.pageContent,
-          }}
-        ></div>
+          dangerouslySetInnerHTML={{ __html: artikel.pageContent }}
+        />
       </CustomContainer>
     </div>
-  ) : (
-    <h1>Not Found</h1>
   );
 };
 
