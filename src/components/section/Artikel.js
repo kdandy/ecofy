@@ -22,12 +22,12 @@ const Artikel = () => {
           ))}
         </div>
         <Link
-          className="text-2xl font-normal text-primary mt-auto flex items-center group transition-all ease-in-out"
+          className="text-2xl font-normal text-secondary mt-auto flex items-center group transition-all ease-in-out"
           href="/artikel"
         >
           <p className="relative">
             Baca Semua Artikel
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
           </p>
           <FaArrowRightLong className="ml-2 transition-all group-hover:ml-4" />
         </Link>

@@ -22,15 +22,15 @@ const BlogCard = ({ title, thumbnailSrc, previewText, link }) => {
         <h3 className="text-2xl font-bold capitalize mb-3 line-clamp-2">
           {title}
         </h3>
-        <p className="border-l-2 pl-2 mb-4 flex-grow line-clamp-3">
+        <p className="border-l-2 border-secondary pl-2 mb-4 flex-grow line-clamp-3">
           {previewText}
         </p>
-        <div className="text-primary mt-auto flex items-center group transition-all ease-in-out">
+        <div className="text-secondary mt-auto flex items-center group transition-all ease-in-out">
           Baca Lebih Lanjut
           <FaArrowRightLong className="ml-1 transition-all group-hover:ml-3" />
         </div>
       </div>
-      <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+      <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
     </Link>
   );
 };

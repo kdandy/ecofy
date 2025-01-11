@@ -10,6 +10,8 @@ const Config = {
   theme: {
     extend: {
       colors: {
+        secondary: "#033f2d",
+        text: "##1e2018",
         green1: "#81c793",
         green2: "#5fa38b",
         darkblue: "#044883",
@@ -56,6 +58,7 @@ const Config = {
       },
       fontFamily: {
         poppins: ["Poppins", "serif"],
+        lora: ["Lora", "serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
