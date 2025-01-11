@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -71,15 +71,48 @@
 }
 
 .hero {
-  background-image: url('/bg-desktop.svg');
+  background-image: url("/bg-desktop.svg");
 }
 
 @media (max-width: 960px) {
   .hero {
-    background-image: url('/bg-mobile.svg');
+    background-image: url("/bg-mobile.svg");
   }
 }
 
 .title {
   @apply text-primary text-6xl font-bold;
 }
+
+.artikel-content {
+  @apply mt-16 leading-5 mb-40;
+  * {
+    @apply text-lg font-normal text-black;
+  }
+
+  p {
+    @apply my-4;
+    text-indent: 2.5rem; /* Adds a tab-like indentation */
+  }
+
+  ul {
+    @apply list-disc pl-5; /* Apply disc style and padding for indentation */
+  }
+
+  ol {
+    @apply list-decimal pl-5; /* Apply decimal style and padding for indentation */
+  }
+
+  li {
+    @apply my-1;
+  }
+
+  b, strong {
+    @apply font-bold;
+  }
+
+  blockquote {
+    @apply font-medium text-xl my-3 bg-slate-100 rounded-xl text-center p-5;
+  }
+}
+

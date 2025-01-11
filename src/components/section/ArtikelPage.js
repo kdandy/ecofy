@@ -19,7 +19,7 @@ const ArtikelPage = () => {
               title={berita.title}
               thumbnailSrc={berita.thumbnail}
               previewText={berita.content}
-              link={berita.link}
+              link={`artikel/${berita.id}`}
             />
           ))}
         </div>
