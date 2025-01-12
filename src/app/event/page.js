@@ -8,6 +8,7 @@ const Events = () => {
       <LoadingPage />
       <div className="mt-40"></div>
       <EventsPage />
+      <div className="mb-20"></div>
     </>
   );
 };

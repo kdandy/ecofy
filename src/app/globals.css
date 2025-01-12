@@ -92,8 +92,7 @@
   }
 
   p {
-    @apply my-4;
-    text-indent: 2.5rem; /* Adds a tab-like indentation */
+    @apply my-5; /* Adds a tab-like indentation */
   }
 
   ul {

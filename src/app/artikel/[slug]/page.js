@@ -27,7 +27,7 @@ const ArtikelRoute = () => {
       </CustomContainer>
       <CustomContainer customWidth="max-w-[1260px]">
         <Image
-          src="/features1.jpg"
+          src={`${artikel.thumbnail}`}
           alt="features image"
           width={0}
           height={0}

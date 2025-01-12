@@ -214,8 +214,13 @@ export const events = [
               "Event ini di tujukan untuk membersihkan sungai cilliwung dari sampah-sampah.",
             location: "Sungai Ciliwung, Kabupaten Denpasar",
             link: "/event1",
-            images: ["/event1.jpg", "/event1_2.jpg"],
-            thumbnail: ["/featuredNews1.jpg"],
+            images: [
+              "/featuredNews1.jpg",
+              "/featuredNews1.jpg",
+              "/featuredNews1.jpg",
+            ],
+            thumbnail: "/featuredNews1.jpg",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
             organizer: {
               name: "Pandawara Group",
               link: "/",
@@ -233,8 +238,9 @@ export const events = [
               "Event ini di tujukan untuk membersihkan sungai cilliwung dari sampah-sampah.",
             location: "Sungai Ciliwung, Kabupaten Denpasar",
             link: "/event1",
-            images: ["/event1.jpg", "/event1_2.jpg"],
-            thumbnail: ["/featuredNews1.jpg"],
+            images: ["/event1.jpg", "/event1_2.jpg", "/event1_3.jpg"],
+            thumbnail: "/featuredNews1.jpg",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
             organizer: {
               name: "Pandawara Group",
               link: "/",
@@ -259,7 +265,8 @@ export const events = [
             location: "Sungai Ciliwung, Kabupaten Denpasar",
             link: "/event1",
             images: ["/event1.jpg", "/event1_2.jpg"],
-            thumbnail: ["/featuredNews1.jpg"],
+            thumbnail: "/featuredNews1.jpg",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
             organizer: {
               name: "Pandawara Group",
               link: "/",
