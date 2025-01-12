@@ -32,7 +32,10 @@ const Hero = () => {
 
   return (
     <>
-      <CustomContainer className="text-center pb-[25vh] text-text pt-[120px] font-lora flex items-center justify-center">
+      <CustomContainer
+        customWidth="max-w-[1600px]"
+        className="text-center pb-[25vh] text-text pt-[120px] font-lora flex items-center justify-center"
+      >
         <div className="">
           <h1 className="text-6xl font-medium z-20 font-lora">
             Ukur Jejak Kurangi Dampak
@@ -40,18 +43,24 @@ const Hero = () => {
           <p className="text-2xl mt-8 font-normal z-20 font-lora">
             Lorem ipsum dor sit amat pale lu memek.
           </p>
-          <div className="flex justify-center items-center mt-8 gap-4 z-20">
+          <div className="flex md:flex-row flex-col justify-center items-center mt-8 gap-4 z-20">
             <Link
               href=""
-              className="bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
+              className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
-              <button>button 1</button>
+              <button>Artikel Edukasi</button>
             </Link>
             <Link
               href=""
-              className="bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
+              className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
-              <button>button 1</button>
+              <button>Kalkulator Karbon</button>
+            </Link>
+            <Link
+              href=""
+              className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
+            >
+              <button>Event Lingkungan</button>
             </Link>
           </div>
           <div className="grid 2xl:grid-cols-5 sm:grid-cols-2 mt-20 2xl:mt-0 grid-cols-1 items-end gap-3">
@@ -65,9 +74,17 @@ const Hero = () => {
               />
               <HeroCard3 title="Let them be heard" />
             </div>
-            <ImageCard link="/test" />
-            <HeroCard2 title="test" link="/test" buttonText="join community"/>
-            <ImageCard link="/test" />
+            <ImageCard
+              link="/test"
+              title="Education"
+              text="Sponsor food, education to Orphans Kenya"
+            />
+            <HeroCard2 title="test" link="/test" buttonText="join community" />
+            <ImageCard
+              link="/test"
+              title="Education"
+              text="Sponsor food, education to Orphans Kenya"
+            />
             {/* HeroCard1 (Right) */}
             <div className="flex flex-col items-center gap-3">
               <HeroCard1

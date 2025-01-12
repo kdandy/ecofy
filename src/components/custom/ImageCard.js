@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-const ImageCard = ({ link }) => {
+const ImageCard = ({ link, title, text }) => {
   return (
     <Link
       href={`${link}`}
@@ -19,12 +19,12 @@ const ImageCard = ({ link }) => {
       <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-60"></div>
       <div className="absolute top-4 left-4">
         <p className="text-xl font-poppins text-white font-light uppercase">
-          Education
+          {title}
         </p>
       </div>
       <div className="absolute bottom-4 left-4 right-4">
         <h2 className="text-white text-3xl font-semibold leading-tight">
-          Sponsor food, education to Orphans Kenya
+          {text}
         </h2>
       </div>
     </Link>
