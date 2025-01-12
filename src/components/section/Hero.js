@@ -6,6 +6,8 @@ import React from "react";
 import CustomContainer from "../custom/CustomContainer";
 import HeroCard1 from "../custom/HeroCard1";
 import ImageCard from "../custom/ImageCard";
+import HeroCard2 from "../custom/HeroCard2";
+import HeroCard3 from "../custom/HeroCard3";
 
 const Hero = () => {
   const phrases = ["Ukur Jejak,", "Kurangi Dampak,", "Selamatkan Bumi!"];
@@ -69,6 +71,8 @@ const Hero = () => {
               buttonText="Button text 2"
             />
             <ImageCard />
+            <HeroCard2 title="right" link="/test" buttonText="Button text 2" />
+            <HeroCard3 title="Let them be heard" />
           </div>
         </div>
       </CustomContainer>
