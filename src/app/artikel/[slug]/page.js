@@ -3,7 +3,6 @@
 import React from "react";
 import { useParams } from "next/navigation";
 import CustomContainer from "@/components/custom/CustomContainer";
-import LoadingPage from "@/components/custom/LoadingPage";
 import Image from "next/image";
 import { artikelEdukasi } from "@/app/data";
 
@@ -18,7 +17,6 @@ const ArtikelRoute = () => {
   return (
     <div>
       <CustomContainer customWidth="max-w-[1160px]">
-        <LoadingPage />
         <div className="mt-40"></div>
         <h1 className="title">{artikel.title}</h1>
         <p className="mt-2 mb-12 font-medium text-secondary text-xl">

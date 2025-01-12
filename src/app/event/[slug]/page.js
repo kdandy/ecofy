@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import CustomContainer from "@/components/custom/CustomContainer";
 import { Button } from "@/components/ui/button";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import LoadingPage from "@/components/custom/LoadingPage";
+
 
 export async function generateStaticParams() {
   // Generate all possible slugs
@@ -46,7 +46,7 @@ export default function EventPage({ params }) {
 
   return (
     <>
-      <LoadingPage />
+
       <div className="mt-[120px]">
         <CustomContainer customWidth="max-w-[1160px]">
           <div className="flex">

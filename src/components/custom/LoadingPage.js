@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 
-const LoadingPage = () => {
+const LoadingPagee = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [blueSlideOpacity, setBlueSlideOpacity] = useState(1); // Changed from 0 to 1
   const [yellowSlideOpacity, setYellowSlideOpacity] = useState(0);
@@ -65,4 +65,4 @@ const LoadingPage = () => {
   );
 };
 
-export default LoadingPage;
+export default LoadingPagee;
