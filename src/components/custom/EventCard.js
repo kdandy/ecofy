@@ -12,7 +12,7 @@ const EventCard = ({ title, description, organizer, link, thumbnail }) => {
         </h4>
         <Image
           src={`${thumbnail}`}
-          alt="features image"
+          alt="event image"
           width="0"
           height="0"
           sizes="100vw"

@@ -32,7 +32,8 @@ export const artikelEdukasi = [
     content:
       "Emisi karbon adalah salah satu penyebab utama perubahan iklim. Pelajari bagaimana kita dapat menguranginya.",
     link: "/pentingnya-mengurangi-emisi-karbon",
-    thumbnail: "/images/emisi-karbon.jpg",
+    thumbnail:
+      "https://images.unsplash.com/photo-1580234033313-184d6414b800?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "2025-01-13",
     pageContent: `
         <p>
@@ -80,7 +81,8 @@ export const artikelEdukasi = [
     content:
       "Energi terbarukan adalah kunci untuk masa depan yang berkelanjutan. Pelajari bagaimana kita dapat mendukungnya.",
     link: "/energi-terbarukan",
-    thumbnail: "/images/energi-terbarukan.jpg",
+    thumbnail:
+      "https://images.unsplash.com/photo-1503350860469-854c1c495118?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "2025-01-13",
     pageContent: `
         <p>
@@ -161,7 +163,8 @@ export const artikelEdukasi = [
     content:
       "Transportasi ramah lingkungan dapat mengurangi emisi karbon. Temukan solusi alternatifnya.",
     link: "/transportasi-ramah-lingkungan",
-    thumbnail: "/images/transportasi-ramah.jpg",
+    thumbnail:
+      "https://images.unsplash.com/photo-1676138395076-b9e227272e17?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "2025-01-13",
     pageContent: `
         <p>
@@ -201,7 +204,8 @@ export const artikelEdukasi = [
     content:
       "Daur ulang dapat mengurangi limbah dan membantu menekan emisi karbon. Ketahui manfaatnya di sini.",
     link: "/dampak-positif-daur-ulang",
-    thumbnail: "/images/daur-ulang.jpg",
+    thumbnail:
+      "https://images.unsplash.com/photo-1643701322278-768c884dc527?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     date: "2025-01-13",
     pageContent: `
         <p>
@@ -241,24 +245,78 @@ export const events = [
     month: "Januari",
     eventsOnDate: [
       {
-        day: "01",
+        day: "21",
         events: [
           {
             event_date_id: 0,
-            title: "Pembersihan Sungai Ciliwung",
+            title: "Pembersihan Sampah Pantai Tirang",
             description:
-              "Event ini di tujukan untuk membersihkan sungai cilliwung dari sampah-sampah.",
-            location: "Sungai Ciliwung, Kabupaten Denpasar",
-            link: "/event1",
+              "Event ini tujuankan untuk membersihkan pantai Tirang di Semarang dari sampah yang ada di sana",
+            location: "Pantai Tirang, Semarang",
+            link: "/",
             images: [
-              "/featuredNews1.jpg",
-              "/featuredNews1.jpg",
-              "/featuredNews1.jpg",
+              "https://i.imgur.com/w30yF3b.jpeg",
+              "https://i.imgur.com/iNp8ahV.jpeg",
+              "https://i.imgur.com/7mwjxtk.jpeg",
             ],
-            thumbnail: "/featuredNews1.jpg",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
+            thumbnail: "https://i.imgur.com/w30yF3b.jpeg",
+            text: "Event membersihkan Pantai Tirang di Semarang merupakan kegiatan peduli lingkungan yang bertujuan untuk menjaga kebersihan dan kelestarian pantai. Kegiatan ini melibatkan komunitas lokal, pelajar, dan masyarakat umum yang bersama-sama mengumpulkan sampah plastik, botol, dan limbah lainnya yang mencemari pantai. Selain membersihkan, event ini juga mengedukasi peserta tentang pentingnya mengurangi penggunaan plastik sekali pakai serta dampak negatif sampah terhadap ekosistem laut. Dengan semangat gotong-royong, acara ini menjadi langkah nyata dalam mendukung kelestarian lingkungan dan mempromosikan keindahan Pantai Tirang sebagai destinasi wisata yang bersih dan asri.",
             organizer: {
-              name: "Pandawara Group",
+              name: "ecofy",
+              link: "/",
+            },
+          },
+        ],
+      },
+      {
+        day: "29",
+        events: [
+          {
+            event_date_id: 0,
+            title: "Pembersihan Sungai Mberok - Kota tua",
+            description:
+              "Event ini di tujukan untuk membersihkan sungai Mebrok dari sampah-sampah.",
+            location: "Sungai Mebrok - Kota tua, Semarang",
+            link: "/",
+            images: [
+              "https://i.imgur.com/BKouPEs.png",
+              "https://i.imgur.com/4BPLVnH.jpegg",
+              "https://i.imgur.com/vdbKgxO.png",
+            ],
+            thumbnail: "https://i.imgur.com/BKouPEs.png",
+            text: "Event membersihkan Sungai Mebrok merupakan inisiatif lingkungan yang bertujuan untuk mengembalikan kejernihan dan kelestarian sungai dari ancaman pencemaran. Kegiatan ini melibatkan komunitas lingkungan, warga sekitar, pelajar, dan relawan yang bergotong-royong mengangkat sampah plastik, limbah rumah tangga, dan kotoran lainnya yang mencemari aliran sungai. Selain aksi bersih-bersih, acara ini juga menjadi momen edukasi tentang pentingnya menjaga kebersihan sungai, mengurangi limbah, dan dampaknya terhadap ekosistem air. Dengan partisipasi aktif masyarakat, event ini diharapkan mampu menciptakan perubahan positif dalam menjaga Sungai Mebrok agar tetap bersih dan sehat sebagai sumber kehidupan bagi lingkungan sekitarnya.",
+            organizer: {
+              name: "ecofy",
+              link: "/",
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    event_id: 1,
+    month: "Febuari",
+    eventsOnDate: [
+      {
+        day: "03",
+        events: [
+          {
+            event_date_id: 0,
+            title: "Pembersihan Sampah Pantai Maron",
+            description:
+              "Event ini di tujukan untuk membersihkan pantai maron dari sampah-sampah.",
+            location: "Sungai Ciliwung, Kabupaten Denpasar",
+            link: "/",
+            images: [
+              "https://i.imgur.com/t93RYPK.jpeg",
+              "https://i.imgur.com/cEWA3Fi.jpeg",
+              "https://i.imgur.com/CFyMyG6.png",
+            ],
+            thumbnail: "https://i.imgur.com/t93RYPK.jpeg",
+            text: "Event membersihkan Pantai Maron merupakan kegiatan peduli lingkungan yang bertujuan untuk menjaga kebersihan dan keindahan pantai dari tumpukan sampah. Acara ini melibatkan komunitas peduli lingkungan, pelajar, dan masyarakat sekitar yang bekerja sama mengumpulkan sampah plastik, styrofoam, dan limbah lainnya yang mencemari area pantai. Selain kegiatan bersih-bersih, event ini juga memberikan edukasi tentang pentingnya menjaga kebersihan pantai, dampak sampah terhadap ekosistem laut, dan upaya mengurangi penggunaan plastik sekali pakai. Dengan semangat gotong-royong, kegiatan ini diharapkan dapat menciptakan kesadaran kolektif untuk melestarikan Pantai Maron sebagai destinasi wisata yang bersih, nyaman, dan asri.",
+            organizer: {
+              name: "ecofy",
               link: "/",
             },
           },
@@ -269,16 +327,20 @@ export const events = [
         events: [
           {
             event_date_id: 0,
-            title: "Pembersihan Sungai Ciliwung",
+            title: "Penanaman Pohon Di Wisata Alam Wana Wisata Penggaron",
             description:
-              "Event ini di tujukan untuk membersihkan sungai cilliwung dari sampah-sampah.",
+              "Event ini di menanam pohon untuk menanam pohon di Wisata Alam Wana Wisata Penggaron",
             location: "Sungai Ciliwung, Kabupaten Denpasar",
-            link: "/event1",
-            images: ["/event1.jpg", "/event1_2.jpg", "/event1_3.jpg"],
-            thumbnail: "/featuredNews1.jpg",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
+            link: "/",
+            images: [
+              "https://i.imgur.com/8kUTMxA.jpeg",
+              "https://i.imgur.com/Ajxy9H1.jpeg",
+              "https://i.imgur.com/bDmGwtW.jpeg",
+            ],
+            thumbnail: "https://i.imgur.com/8kUTMxA.jpeg",
+            text: "Event penanaman pohon di Wisata Alam Wana Wisata Penggaron merupakan kegiatan lingkungan yang bertujuan untuk mendukung pelestarian hutan dan menjaga keseimbangan ekosistem di kawasan wisata tersebut. Acara ini melibatkan komunitas pecinta alam, pelajar, dan masyarakat sekitar yang bersama-sama menanam berbagai jenis pohon, seperti tanaman penghijauan dan endemik lokal, di area yang telah ditentukan. Selain aksi penanaman, kegiatan ini juga menjadi ajang edukasi tentang pentingnya menjaga kelestarian hutan, manfaat pohon bagi lingkungan, serta upaya mitigasi perubahan iklim. Dengan semangat gotong-royong, acara ini diharapkan dapat meningkatkan kesadaran masyarakat akan pentingnya menjaga kelestarian alam dan menjadikan Wisata Alam Penggaron sebagai kawasan hijau yang indah dan bermanfaat bagi generasi mendatang.",
             organizer: {
-              name: "Pandawara Group",
+              name: "ecofy",
               link: "/",
             },
           },
@@ -288,28 +350,60 @@ export const events = [
   },
   {
     event_id: 1,
-    month: "febuari",
+    month: "Maret",
     eventsOnDate: [
       {
-        day: "03",
+        day: "11",
         events: [
           {
             event_date_id: 0,
-            title: "Pembersihan Sungai Ciliwung",
+            title: "Penanaman Pohon Di Hutan Wisata Tinjomoyo Semarang",
             description:
-              "Event ini di tujukan untuk membersihkan sungai cilliwung dari sampah-sampah.",
+              "Event ini di menanam pohon untuk menanam pohon di Hutan Wisata Tinjomoyo Semarang",
             location: "Sungai Ciliwung, Kabupaten Denpasar",
-            link: "/event1",
-            images: ["/event1.jpg", "/event1_2.jpg"],
-            thumbnail: "/featuredNews1.jpg",
-            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel consectetur tortor, at ultrices nisi. Sed vel",
+            link: "/",
+            images: [
+              "https://i.imgur.com/beVsyoA.png",
+              "https://i.imgur.com/c5BwYee.png",
+              "https://i.imgur.com/oVH2vxk.jpeg",
+            ],
+            thumbnail: "https://i.imgur.com/beVsyoA.png",
+            text: "Event penanaman pohon di Hutan Wisata Tinjomoyo Semarang merupakan aksi peduli lingkungan yang bertujuan untuk menghijaukan kembali kawasan hutan wisata dan menjaga keberlanjutan ekosistemnya. Kegiatan ini melibatkan komunitas pecinta alam, pelajar, dan masyarakat lokal yang bersama-sama menanam berbagai jenis pohon, seperti tanaman keras dan endemik, di area yang membutuhkan penghijauan. Selain aksi penanaman, acara ini juga memberikan edukasi tentang pentingnya menjaga hutan sebagai paru-paru kota, manfaat pohon dalam menyerap karbon, serta upaya mencegah erosi dan perubahan iklim. Dengan semangat kolaborasi, kegiatan ini diharapkan dapat meningkatkan kesadaran akan pentingnya menjaga kelestarian Hutan Wisata Tinjomoyo sebagai kawasan hijau yang indah, lestari, dan bermanfaat bagi generasi mendatang.",
             organizer: {
-              name: "Pandawara Group",
+              name: "ecofy",
               link: "/",
             },
           },
         ],
       },
     ],
+  },
+];
+
+export const faq = [
+  {
+    id: 1,
+    question: "Is it accessible",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+  },
+  {
+    id: 2,
+    question: "Is it accessible",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+  },
+  {
+    id: 3,
+    question: "Is it accessible",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+  },
+  {
+    id: 4,
+    question: "Is it accessible",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+  },
+  {
+    id: 5,
+    question: "Is it accessible",
+    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
   },
 ];
