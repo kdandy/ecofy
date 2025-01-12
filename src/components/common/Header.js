@@ -1,4 +1,6 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import CustomContainer from "../custom/CustomContainer";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -12,6 +14,14 @@ import {
 } from "@/components/ui/sheet";
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    // Add a small delay before closing the sheet to allow for navigation
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 150);
+  };
 
   return (
     <header
@@ -20,11 +30,11 @@ const Header = () => {
       <CustomContainer
         className={`my-3 w-full py-4 px-8 flex justify-between items-center rounded-full transition-all duration-500 ease-in-out`}
       >
-        <div>
+        <Link href="/">
           <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-600 transition-all duration-500">
             ecofy
           </h1>
-        </div>
+        </Link>
         <ul className="hidden md:flex gap-5">
           {["Beranda", "Tentang", "Artikel", "Event"].map((item, index) => (
             <li key={index} className="group relative">
@@ -39,7 +49,7 @@ const Header = () => {
           ))}
         </ul>
         <div className="overflow-hidden">
-          <Sheet>
+          <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger>
               <div className="text-2xl font-thin">
                 <GiHamburgerMenu />
@@ -56,18 +66,21 @@ const Header = () => {
                 </SheetTitle>
                 <SheetDescription className="overflow-hidden relative capitalize">
                   <div className="py-5 flex flex-col justify-center text-text items-center text-2xl gap-3">
-                    <Link className="py-1 font-medium" href="/">
-                      beranda
-                    </Link>
-                    <Link className="py-1 font-medium" href="/tentang">
-                      tentang
-                    </Link>
-                    <Link className="py-1 font-medium" href="/artikel">
-                      artikel
-                    </Link>
-                    <Link className="py-1 font-medium" href="/event">
-                      event
-                    </Link>
+                    {[
+                      { text: "beranda", href: "/" },
+                      { text: "tentang", href: "/tentang" },
+                      { text: "artikel", href: "/artikel" },
+                      { text: "event", href: "/event" },
+                    ].map((link) => (
+                      <Link
+                        key={link.text}
+                        className="py-1 font-medium"
+                        href={link.href}
+                        onClick={handleLinkClick}
+                      >
+                        {link.text}
+                      </Link>
+                    ))}
                   </div>
                 </SheetDescription>
               </SheetHeader>

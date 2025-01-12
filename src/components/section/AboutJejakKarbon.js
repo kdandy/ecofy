@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutJejakKarbon = () => {
   return (
-    <div className="text-left mb-[10vh] md:mb-[20vh]">
+    <div className="text-left mb-[10vh] md:mb-[20vh]" id="karbonkalk">
       <CustomContainer className="flex flex-col md:flex-row items-center justify-between">
         <div className="md:max-w-[50%] mb-24 md:mb-0">
           <div className="relative">

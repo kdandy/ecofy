@@ -19,7 +19,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-12 sm:flex-row flex-col mt-12 sm:mt-0">
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-4">
-              <Link href="/beranda" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 beranda
               </Link>
               <Link href="/tentang" className="hover:underline">

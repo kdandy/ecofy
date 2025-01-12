@@ -21,7 +21,7 @@ const ArtikelRoute = () => {
         <LoadingPage />
         <div className="mt-40"></div>
         <h1 className="title">{artikel.title}</h1>
-        <p className="mt-2 mb-12 font-medium text-primary text-xl">
+        <p className="mt-2 mb-12 font-medium text-secondary text-xl">
           Published on {artikel.date || "Unknown Date"}
         </p>
       </CustomContainer>

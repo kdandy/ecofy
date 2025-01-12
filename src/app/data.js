@@ -5,7 +5,7 @@ export const features = [
     title: "Event Sharing untuk Aktivitas Lingkungan",
     description:
       "Pengguna dapat menemukan berbagai acara atau kegiatan lingkungan di sekitar mereka, seperti penanaman pohon, pembersihan sampah, atau seminar edukasi lingkungan.",
-    routeLink: "/events",
+    routeLink: "/tentang#event",
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const features = [
     title: "Laporan Jejak Karbon Pengguna",
     description:
       "Fitur ini membantu pengguna menghitung dan memantau jejak karbon pribadi berdasarkan aktivitas harian mereka, seperti penggunaan transportasi, konsumsi energi, dan pola konsumsi.",
-    routeLink: "/karboncalulator",
+    routeLink: "/tentang#karbonkalk",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const features = [
     title: "Artikel dan Edukasi Berbasis Keberlanjutan",
     description:
       "Perpustakaan digital yang menyajikan artikel, tips, dan panduan praktis tentang gaya hidup berkelanjutan serta berita terkini tentang isu lingkungan.",
-    routeLink: "/blog",
+    routeLink: "/tentang#artikel",
   },
 ];
 

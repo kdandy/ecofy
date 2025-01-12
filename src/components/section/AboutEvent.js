@@ -6,7 +6,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutEvent = () => {
   return (
-    <div className="text-left mb-[10vh] md:mb-[20vh]">
+    <div className="text-left mb-[10vh] md:mb-[20vh]" id="event">
       <CustomContainer className="flex flex-col-reverse md:flex-row items-center justify-between">
         <div className="">
           <h1 className="title">Event</h1>

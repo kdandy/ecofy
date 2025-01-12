@@ -45,19 +45,19 @@ const Hero = () => {
           </p>
           <div className="flex md:flex-row flex-col justify-center items-center mt-8 gap-4 z-20">
             <Link
-              href=""
+              href="/artikel"
               className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
               <button>Artikel Edukasi</button>
             </Link>
             <Link
-              href=""
+              href="/"
               className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
               <button>Kalkulator Karbon</button>
             </Link>
             <Link
-              href=""
+              href="/event"
               className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
               <button>Event Lingkungan</button>
