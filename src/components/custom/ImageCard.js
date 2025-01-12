@@ -6,7 +6,7 @@ const ImageCard = ({ link }) => {
   return (
     <Link
       href={`${link}`}
-      className="group relative text-left h-auto mt-[35px] rounded-[45px] overflow-hidden shadow-lg max-w-[350px]"
+      className="group relative text-left h-full min-h-[400px] 2xl:max-h-[350px] mt-[35px] rounded-[45px] overflow-hidden shadow-lg max-w-[350px] mx-auto"
     >
       <Image
         src="/features1.jpg"
@@ -18,10 +18,12 @@ const ImageCard = ({ link }) => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-50 transition-opacity duration-500 ease-in-out group-hover:bg-opacity-60"></div>
       <div className="absolute top-4 left-4">
-        <p className="text-sm text-white font-medium uppercase">Education</p>
+        <p className="text-xl font-poppins text-white font-light uppercase">
+          Education
+        </p>
       </div>
       <div className="absolute bottom-4 left-4 right-4">
-        <h2 className="text-white text-2xl font-semibold leading-tight">
+        <h2 className="text-white text-3xl font-semibold leading-tight">
           Sponsor food, education to Orphans Kenya
         </h2>
       </div>

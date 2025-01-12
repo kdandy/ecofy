@@ -54,25 +54,31 @@ const Hero = () => {
               <button>button 1</button>
             </Link>
           </div>
-          <div className="flex">
-            <HeroCard1
-              title="left"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              link="/test"
-              buttonText="Button text 1"
-            />
-            <HeroCard1
-              position="right"
-              title="right"
-              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              link="/test"
-              buttonText="Button text 2"
-            />
-            <ImageCard />
-            <HeroCard2 title="right" link="/test" buttonText="Button text 2" />
-            <HeroCard3 title="Let them be heard" />
+          <div className="grid 2xl:grid-cols-5 sm:grid-cols-2 mt-20 2xl:mt-0 grid-cols-1 items-end gap-3">
+            {/* HeroCard1 (Left) */}
+            <div className="flex flex-col items-center gap-3">
+              <HeroCard1
+                title="65%"
+                description="17 Thousand People Died, Thousands Injured, Houses and Buildings Destroyed. Turkey-Syria Grieves"
+                link="/donate-now"
+                buttonText="Donate now"
+              />
+              <HeroCard3 title="Let them be heard" />
+            </div>
+            <ImageCard link="/test" />
+            <HeroCard2 title="test" link="/test" buttonText="join community"/>
+            <ImageCard link="/test" />
+            {/* HeroCard1 (Right) */}
+            <div className="flex flex-col items-center gap-3">
+              <HeroCard1
+                position="right"
+                title="Explore more"
+                description="Your home for help"
+                link="/explore-more"
+                buttonText="Explore"
+              />
+              <HeroCard3 title="Your home for help" />
+            </div>
           </div>
         </div>
       </CustomContainer>

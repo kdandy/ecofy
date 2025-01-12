@@ -14,7 +14,7 @@ const HeroCard1 = ({ position, title, description, link, buttonText }) => {
     >
       {/* Top decorative bar */}
       <div
-        className={`w-[175px] h-[35px] bg-secondary transition-all duration-300 ${
+        className={`hidden 2xl:block w-[175px] h-[35px] bg-secondary transition-all duration-300 ${
           position === "right"
             ? "rounded-tr-[90px] rounded-tl-[45px]"
             : "rounded-tl-[90px] rounded-tr-[45px]"
@@ -23,8 +23,10 @@ const HeroCard1 = ({ position, title, description, link, buttonText }) => {
 
       {/* Main card */}
       <div
-        className={`relative overflow-hidden flex flex-col justify-center max-w-[350px] pt-[75px] px-8 bg-secondary text-left rounded-b-[65px] transition-all duration-300 ${
-          position === "right" ? "rounded-l-[65px]" : "rounded-r-[65px]"
+        className={` relative overflow-hidden flex-col justify-center max-w-[350px] pt-[75px] px-8 bg-secondary text-left rounded-b-[65px] transition-all duration-300 ${
+          position === "right"
+            ? "rounded-l-[65px] rounded-tr-[65px] 2xl:rounded-tr-none"
+            : "rounded-r-[65px] rounded-tl-[65px] 2xl:rounded-tl-none"
         }`}
       >
         {/* Title */}
@@ -38,8 +40,8 @@ const HeroCard1 = ({ position, title, description, link, buttonText }) => {
         </p>
 
         {/* Button */}
-        <div className="w-full z-20 relative flex items-center justify-between shadow-2xl bg-primaryShadow px-4 py-2 mb-2 text-xl rounded-full transition-all duration-300 group-hover:shadow-lg group-hover:bg-secondary">
-          <p className="font-medium ml-1 transition-all duration-300 group-hover:text-white">
+        <div className="w-full z-20 relative flex items-center justify-between shadow-2xl bg-primaryShadow px-4 py-2 mb-2 rounded-full transition-all duration-300 group-hover:shadow-lg group-hover:bg-secondary">
+          <p className="font-medium text-lg ml-1 transition-all duration-300 group-hover:text-white">
             {buttonText}
           </p>
           <button className="bg-secondary group-hover:bg-primary text-5xl p-2 rounded-full transition-all duration-300 transform group-hover:scale-110">
