@@ -16,7 +16,9 @@ const EventsPage = () => {
             silahkan klik tombol di bawah.
           </h2>
           <Link href={`/requestEvent`}>
-            <Button size="lg">Request Event</Button>
+            <Button size="lg" className="text-text">
+              Request Event
+            </Button>
           </Link>
         </div>
         <EventParent events={events} />
