@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex justify-between sm:flex-row flex-col">
           <div className="inline-block">
             <h1 className="text-5xl font-poppins font-bold bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">
-              ecofy
+              Ecofy
             </h1>
             <p className="text-[#f5f5f5] text-lg mt-2">
               Ukur Jejak Kurangi Dampak
@@ -20,21 +20,21 @@ const Footer = () => {
           <div className="flex gap-12 sm:flex-row flex-col mt-12 sm:mt-0">
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-4">
               <Link href="/" className="hover:underline">
-                beranda
+                Beranda
               </Link>
               <Link href="/tentang" className="hover:underline">
-                tentang
+                Tentang
               </Link>
               <Link href="/artikel" className="hover:underline">
-                artikel
+                Artikel
               </Link>
             </div>
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-2">
               <Link href="/event" className="hover:underline">
-                event
+                Event
               </Link>
-              <Link href="/" className="hover:underline">
-                carbon calulator
+              <Link href="https://carbon.ecofy.dandy.my.id" className="hover:underline">
+                Hitung Jejak Karbonmu!
               </Link>
             </div>
           </div>

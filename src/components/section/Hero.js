@@ -37,30 +37,17 @@ const Hero = () => {
         className="text-center pb-[25vh] text-text pt-[120px] font-lora flex items-center justify-center"
       >
         <div className="">
-          <h1 className="text-6xl font-medium z-20 font-lora">
-            Ukur Jejak Kurangi Dampak
+          <h1 className="text-5xl font-medium z-20 font-lora max-w-[800px] mx-auto">
+          Ukur Jejak, Kurangi Dampak untuk Masa Depan yang Lebih Baik.
           </h1>
           <p className="text-2xl mt-8 font-normal z-20 font-lora">
-            Lorem ipsum dor sit amat pale lu memek.
-          </p>
+          Kita bisa mengukur dan mengurangi dampak aktivitas untuk masa depan yang lebih baik.          </p>
           <div className="flex md:flex-row flex-col justify-center items-center mt-8 gap-4 z-20">
             <Link
-              href="/artikel"
+              href="https://calculator.ecofy.dandy.my.id/"
               className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
             >
-              <button>Artikel Edukasi</button>
-            </Link>
-            <Link
-              href="/"
-              className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
-            >
-              <button>Kalkulator Karbon</button>
-            </Link>
-            <Link
-              href="/event"
-              className="capitalize bg-primary hover:bg-primary-foreground text-2xl py-3 px-10 rounded-full transition ease-in-out duration-300"
-            >
-              <button>Event Lingkungan</button>
+              <button>Hitung Jejak Karbonmu!</button>
             </Link>
           </div>
           <div className="grid 2xl:grid-cols-5 sm:grid-cols-2 mt-20 2xl:mt-0 grid-cols-1 items-end gap-3">

@@ -1,9 +1,10 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 import CustomContainer from "../custom/CustomContainer";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
+import Image from "next/image";
 import {
   Sheet,
   SheetContent,
@@ -31,11 +32,18 @@ const Header = () => {
         className={`my-3 w-full py-4 px-8 flex justify-between items-center rounded-full transition-all duration-500 ease-in-out`}
       >
         <Link href="/">
-          <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-600 transition-all duration-500">
-            ecofy
+          <h1 className="text-3xl font-bold text-[#00432d] transition-all duration-500 flex items-center gap-3">
+            <Image
+              src="/faviconn.ico"
+              alt="Logo"
+              width={32} // Lebar logo
+              height={32} // Tinggi logo
+              className="rounded-full"
+            />
+            Ecofy
           </h1>
         </Link>
-        <ul className="hidden md:flex gap-5">
+        <ul className="hidden md:flex gap-9 text-xl">
           {["Beranda", "Tentang", "Artikel", "Event"].map((item, index) => (
             <li key={index} className="group relative">
               <Link
@@ -60,12 +68,12 @@ const Header = () => {
                 <SheetTitle>
                   <div className="inline-block">
                     <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-600 transition-all duration-500">
-                      ecofy
+                      Ecofy
                     </h1>
                   </div>
                 </SheetTitle>
                 <SheetDescription className="overflow-hidden relative capitalize">
-                  <div className="py-5 flex flex-col justify-center text-text items-center text-2xl gap-3">
+                  <div className="py-5 flex flex-col justify-center text-text items-center text-3xl gap-4">
                     {[
                       { text: "beranda", href: "/" },
                       { text: "tentang", href: "/tentang" },
