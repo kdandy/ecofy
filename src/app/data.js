@@ -4,7 +4,7 @@ export const features = [
     imageLink: "/features/events.svg",
     title: "Event Sharing untuk Aktivitas Lingkungan",
     description:
-      "Pengguna dapat menemukan berbagai acara atau kegiatan lingkungan di sekitar mereka, seperti penanaman pohon, pembersihan sampah, atau seminar edukasi lingkungan.",
+      "Temukan acara lingkungan seperti penanaman pohon, pembersihan sampah, dan seminar edukasi.",
     routeLink: "/tentang#event",
   },
   {
@@ -12,7 +12,7 @@ export const features = [
     imageLink: "/features/carbon.svg",
     title: "Laporan Jejak Karbon Pengguna",
     description:
-      "Fitur ini membantu pengguna menghitung dan memantau jejak karbon pribadi berdasarkan aktivitas harian mereka, seperti penggunaan transportasi, konsumsi energi, dan pola konsumsi.",
+      "Memungkinkan pengguna memantau jejak karbon harian berdasarkan transportasi, energi, dan konsumsi.",
     routeLink: "/tentang#karbonkalk",
   },
   {
@@ -20,7 +20,7 @@ export const features = [
     imageLink: "/features/artikel.svg",
     title: "Artikel dan Edukasi Berbasis Keberlanjutan",
     description:
-      "Perpustakaan digital yang menyajikan artikel, tips, dan panduan praktis tentang gaya hidup berkelanjutan serta berita terkini tentang isu lingkungan.",
+      "Perpustakaan digital berisi artikel, tips, panduan gaya hidup berkelanjutan, dan berita lingkungan terkini.",
     routeLink: "/tentang#artikel",
   },
 ];
@@ -383,27 +383,42 @@ export const events = [
 export const faq = [
   {
     id: 1,
-    question: "Is it accessible",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Apa itu Ecofy?",
+    answer: "Ecofy adalah platform digital inovatif yang mendukung keberlanjutan melalui fitur seperti laporan jejak karbon, event lingkungan, dan edukasi keberlanjutan.",
   },
   {
     id: 2,
-    question: "Is it accessible",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Apa manfaat utama menggunakan Ecofy?",
+    answer: "Ecofy mempermudah kolaborasi untuk aksi lingkungan, menyediakan informasi keberlanjutan, dan membantu pengguna mengurangi jejak karbon mereka.",
   },
   {
     id: 3,
-    question: "Is it accessible",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Siapa saja target pengguna Ecofy?",
+    answer: "Ecofy dirancang untuk individu, komunitas lokal, dan organisasi yang peduli terhadap keberlanjutan dan ingin berkontribusi dalam aksi lingkungan.",
   },
   {
     id: 4,
-    question: "Is it accessible",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Fitur apa saja yang ditawarkan oleh Ecofy?",
+    answer: "Ecofy menyediakan fitur seperti event sharing, laporan jejak karbon personal, artikel edukasi keberlanjutan, dan kolaborasi komunitas.",
   },
   {
     id: 5,
-    question: "Is it accessible",
-    answer: "Yes. It adheres to the WAI-ARIA design pattern.",
+    question: "Bagaimana Ecofy membantu mengurangi jejak karbon?",
+    answer: "Ecofy memberikan laporan jejak karbon yang dipersonalisasi serta rekomendasi praktis untuk mengurangi emisi karbon melalui gaya hidup ramah lingkungan.",
+  },
+  {
+    id: 6,
+    question: "Apakah Ecofy tersedia di seluruh Indonesia?",
+    answer: "Saat ini Ecofy difokuskan untuk pengguna di wilayah urban Indonesia dengan akses internet yang memadai.",
+  },
+  {
+    id: 7,
+    question: "Apakah data pengguna di Ecofy aman?",
+    answer: "Ya, Ecofy mematuhi regulasi perlindungan data untuk memastikan data pengguna dilindungi dengan baik dan digunakan hanya untuk tujuan keberlanjutan.",
+  },
+  {
+    id: 8,
+    question: "Bisakah saya menggunakan Ecofy tanpa koneksi internet?",
+    answer: "Sebagian besar fitur Ecofy memerlukan koneksi internet untuk akses real-time, seperti laporan jejak karbon dan pembaruan event.",
   },
 ];

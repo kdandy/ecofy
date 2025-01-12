@@ -17,7 +17,7 @@ const Faq = () => {
             Frequently asked questions
           </h1>
           <h3 className="text-lg sm:text-xl my-7">
-            Have another question? please email us at dandybdr@gmail.com
+            Have another question? please email us at support@ecofy.id
           </h3>
         </div>
         <div className="text-xl pb-8">

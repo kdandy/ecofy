@@ -49,13 +49,13 @@ const Community = () => {
         />
         <Image
           src="/com/com41.png"
-          alt="features image"
+          alt="community image 4"
           width="0"
           height="0"
           sizes="100vw"
           className="w-auto max-w-[150px] xl:block hidden absolute h-auto top-72 right-48 rounded-2xl"
-        />
-      </CustomContainer>
+          />
+              </CustomContainer>
     </div>
   );
 };
