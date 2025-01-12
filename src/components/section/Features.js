@@ -21,7 +21,7 @@ const Features = () => {
 
   return (
     <div className="font-lora px-4">
-      <CustomContainer className="py-[15vh] bg-primary rounded-2xl text-center justify-center items-center">
+      <CustomContainer customWidth="max-w-[1600px]" className="py-[15vh] bg-primary rounded-2xl text-center justify-center items-center">
         <h1 className="title mb-[125px] text-text">Features</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {features.map((feature) => (

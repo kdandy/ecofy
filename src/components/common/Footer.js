@@ -7,7 +7,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="px-3">
-      <CustomContainer className="bg-secondary sm:flex-row flex-col px-20 font-lora py-8 rounded-2xl mb-2">
+      <CustomContainer customWidth="max-w-[1600px]" className="bg-secondary sm:flex-row flex-col px-20 font-lora py-8 rounded-2xl mb-2">
         <div className="flex justify-between sm:flex-row flex-col">
           <div className="inline-block">
             <h1 className="text-5xl font-poppins font-bold bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent">

@@ -35,7 +35,7 @@ const Header = () => {
             ecofy
           </h1>
         </Link>
-        <ul className="hidden md:flex gap-5">
+        <ul className="hidden md:flex gap-8">
           {["Beranda", "Tentang", "Artikel", "Event"].map((item, index) => (
             <li key={index} className="group relative">
               <Link
