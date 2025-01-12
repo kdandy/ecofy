@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
+import React from "react";
 import CustomContainer from "../custom/CustomContainer";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -14,28 +12,13 @@ import {
 } from "@/components/ui/sheet";
 
 const Header = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 100;
-      setScrolled(isScrolled);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out flex justify-between items-center ${
-        scrolled ? "border-none" : "border-b-2"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out flex justify-between items-center bg-white border-b-2`}
     >
       <CustomContainer
-        className={`my-3 w-full py-4 px-8 flex justify-between items-center rounded-full transition-all duration-500 ease-in-out ${
-          scrolled ? "bg-slate-100" : "bg-transparent"
-        }`}
+        className={`my-3 w-full py-4 px-8 flex justify-between items-center rounded-full transition-all duration-500 ease-in-out`}
       >
         <div>
           <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-600 transition-all duration-500">
