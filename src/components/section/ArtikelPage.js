@@ -8,7 +8,7 @@ const ArtikelPage = () => {
     <div className="">
       <CustomContainer>
         <h1 className="title">Artikel Edukasi</h1>
-        <h2 className="text-green1 text-xl my-8 font-medium">
+        <h2 className="text-primaryShadow text-xl my-5 font-medium">
           Artikel, tips, dan panduan praktis gaya hidup berkelanjutan, berita
           terkini, berita isu lingkungan terkini kami
         </h2>

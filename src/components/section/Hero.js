@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import CustomContainer from "../custom/CustomContainer";
 import HeroCard1 from "../custom/HeroCard1";
+import ImageCard from "../custom/ImageCard";
 
 const Hero = () => {
   const phrases = ["Ukur Jejak,", "Kurangi Dampak,", "Selamatkan Bumi!"];
@@ -29,12 +30,12 @@ const Hero = () => {
 
   return (
     <>
-      <CustomContainer className="text-center pb-[25vh] pt-[120px] flex items-center justify-center">
+      <CustomContainer className="text-center pb-[25vh] text-text pt-[120px] font-lora flex items-center justify-center">
         <div className="">
-          <h1 className="text-6xl font-medium z-20">
+          <h1 className="text-6xl font-medium z-20 font-lora">
             Ukur Jejak Kurangi Dampak
           </h1>
-          <p className="text-2xl mt-8 font-normal z-20">
+          <p className="text-2xl mt-8 font-normal z-20 font-lora">
             Lorem ipsum dor sit amat pale lu memek.
           </p>
           <div className="flex justify-center items-center mt-8 gap-4 z-20">
@@ -52,8 +53,22 @@ const Hero = () => {
             </Link>
           </div>
           <div className="flex">
-            <HeroCard1 position="right" />
-            <HeroCard1 />
+            <HeroCard1
+              title="left"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              link="/test"
+              buttonText="Button text 1"
+            />
+            <HeroCard1
+              position="right"
+              title="right"
+              description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              link="/test"
+              buttonText="Button text 2"
+            />
+            <ImageCard />
           </div>
         </div>
       </CustomContainer>

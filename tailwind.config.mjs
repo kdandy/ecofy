@@ -15,6 +15,7 @@ const Config = {
         green1: "#81c793",
         green2: "#5fa38b",
         darkblue: "#044883",
+        primaryShadow: "#1d5242",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

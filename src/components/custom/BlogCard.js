@@ -19,13 +19,13 @@ const BlogCard = ({ title, thumbnailSrc, previewText, link }) => {
         <div className="absolute inset-0 bg-gradient-to-b from-[rgba(134,207,153,0.4)] via-[rgba(134,207,153,0.6)] to-[rgba(134,207,153,0.8)] opacity-0 group-hover:opacity-100 transition-opacity"></div>
       </div>
       <div className="p-4 flex flex-col flex-grow">
-        <h3 className="text-2xl font-bold capitalize mb-3 line-clamp-2">
+        <h3 className="text-2xl font-lora font-bold capitalize mb-3 line-clamp-2">
           {title}
         </h3>
         <p className="border-l-2 border-secondary pl-2 mb-4 flex-grow line-clamp-3">
           {previewText}
         </p>
-        <div className="text-secondary mt-auto flex items-center group transition-all ease-in-out">
+        <div className="text-secondary font-lora font-bold mt-auto flex items-center group transition-all ease-in-out">
           Baca Lebih Lanjut
           <FaArrowRightLong className="ml-1 transition-all group-hover:ml-3" />
         </div>

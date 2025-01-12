@@ -22,7 +22,7 @@ const Artikel = () => {
           ))}
         </div>
         <Link
-          className="text-2xl font-normal text-secondary mt-auto flex items-center group transition-all ease-in-out"
+          className="text-2xl font-lora font-bold text-secondary mt-auto flex items-center group transition-all ease-in-out"
           href="/artikel"
         >
           <p className="relative">

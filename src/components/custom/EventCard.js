@@ -7,7 +7,9 @@ const EventCard = ({ title, description, organizer, link, thumbnail }) => {
   return (
     <>
       <div className="border-l-4 mt-2 ml-8 pl-8">
-        <h4 className="text-4xl font-bold mb-4 capitalize">{title}</h4>
+        <h4 className="text-4xl mb-4 capitalize font-lora font-bold">
+          {title}
+        </h4>
         <Image
           src={`${thumbnail}`}
           alt="features image"
@@ -20,23 +22,23 @@ const EventCard = ({ title, description, organizer, link, thumbnail }) => {
         <p className="text-lg mt-4 flex">
           Event Organizer :{" "}
           <Link
-            className="text-xl ml-2 font-normal text-primary relative group transition-all ease-in-out"
+            className="text-xl font-lora ml-2 font-normal text-secondary relative group transition-all ease-in-out"
             href={`${organizer.link}`}
             target="_"
           >
             <p className="relative">
               {organizer.name}
-              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
             </p>
           </Link>
         </p>
         <Link
-          className="text-xl mt-4 font-normal text-primary flex items-center group transition-all ease-in-out"
+          className="text-xl font-lora mt-4 font-normal text-secondary flex items-center group transition-all ease-in-out"
           href={`${link}`}
         >
           <p className="relative">
             Baca Lebih Lanjut
-            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-secondary transition-all duration-300 group-hover:w-full"></span>
           </p>
           <FaArrowRightLong className="ml-2 transition-all group-hover:ml-4" />
         </Link>
