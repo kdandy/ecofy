@@ -18,32 +18,31 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLinkClick = () => {
-    // Add a small delay before closing the sheet to allow for navigation
+    // Menutup menu dengan sedikit delay setelah klik
     setTimeout(() => {
       setIsOpen(false);
     }, 150);
   };
 
   return (
-    <header
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out flex justify-between items-center bg-white border-b-2`}
-    >
-      <CustomContainer
-        className={`my-3 w-full py-4 px-8 flex justify-between items-center rounded-full transition-all duration-500 ease-in-out`}
-      >
+    <header className="fixed top-0 w-full z-50 bg-white border-b-2">
+      <CustomContainer className="py-4 px-6 md:px-8 flex justify-between items-center">
+        {/* Logo */}
         <Link href="/">
-          <h1 className="text-3xl font-bold text-[#00432d] transition-all duration-500 flex items-center gap-3">
+          <h1 className="text-2xl md:text-3xl font-bold text-[#00432d] flex items-center gap-2">
             <Image
               src="/faviconn.ico"
               alt="Logo"
-              width={32} // Lebar logo
-              height={32} // Tinggi logo
+              width={32}
+              height={32}
               className="rounded-full"
             />
             Ecofy
           </h1>
         </Link>
-        <ul className="hidden md:flex gap-9 text-xl">
+
+        {/* Menu Desktop */}
+        <ul className="hidden md:flex gap-6 lg:gap-9 text-base lg:text-xl">
           {["Beranda", "Tentang", "Artikel", "Event"].map((item, index) => (
             <li key={index} className="group relative">
               <Link
@@ -56,34 +55,36 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <div className="overflow-hidden">
+
+        {/* Menu Mobile (Hamburger) */}
+        <div className="md:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger>
-              <div className="text-2xl font-thin">
+              <div className="text-2xl">
                 <GiHamburgerMenu />
               </div>
             </SheetTrigger>
-            <SheetContent side="top">
+            <SheetContent side="top" className="bg-white">
               <SheetHeader>
                 <SheetTitle>
-                  <div className="inline-block">
-                    <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-green-600 transition-all duration-500">
+                  <div className="flex justify-center items-center">
+                    <h1 className="text-3xl font-bold text-[#00432d] flex items-center gap-2">
                       Ecofy
                     </h1>
                   </div>
                 </SheetTitle>
-                <SheetDescription className="overflow-hidden relative capitalize">
-                  <div className="py-5 flex flex-col justify-center text-text items-center text-3xl gap-4">
+                <SheetDescription className="overflow-hidden relative">
+                  <div className="py-5 flex flex-col items-center text-lg gap-6">
                     {[
-                      { text: "beranda", href: "/" },
-                      { text: "tentang", href: "/tentang" },
-                      { text: "artikel", href: "/artikel" },
-                      { text: "event", href: "/event" },
+                      { text: "Beranda", href: "/" },
+                      { text: "Tentang", href: "/tentang" },
+                      { text: "Artikel", href: "/artikel" },
+                      { text: "Event", href: "/event" },
                     ].map((link) => (
                       <Link
                         key={link.text}
-                        className="py-1 font-medium"
                         href={link.href}
+                        className="text-black font-medium capitalize"
                         onClick={handleLinkClick}
                       >
                         {link.text}
