@@ -6,7 +6,7 @@
 
 ## Pendahuluan
 
-Ecofy adalah proyek yang dibuat untuk kompetisi [Lomba ITC HMTI Udinus 2024][Web Development]. Tujuan utamanya adalah untuk menunjukkan kepada dunia betapa buruknya perubahan iklim. Ecofy memungkinkan Anda untuk memeriksa jejak karbon Anda. Anda dapat mencobanya di [ecofy.dandy.my.id][ecofy-link]
+Ecofy adalah proyek yang dibuat untuk kompetisi [Lomba ITC HMTI Udinus 2024][Lomba]. Tujuan utamanya adalah untuk menunjukkan kepada dunia betapa buruknya perubahan iklim. Ecofy memungkinkan Anda untuk memeriksa jejak karbon Anda. Anda dapat mencobanya di [ecofy.dandy.my.id][ecofy-link]
 
 ## Daftar Isi
 
