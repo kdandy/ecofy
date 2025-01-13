@@ -17,7 +17,7 @@ const Faq = () => {
             Frequently asked questions
           </h1>
           <h3 className="text-base sm:text-lg lg:text-xl my-5 sm:my-7">
-            Have another question? Please email us at{" "}
+          Ada pertanyaan lain? Silakan email kami di{" "}
             <a
               href="mailto:support@ecofy.id"
             >

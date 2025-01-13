@@ -9,11 +9,11 @@ import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Features = () => {
+  // Inisialisasi plugin autoplay untuk carousel
   const autoplayPlugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: true })
   );
 
-  // Ensure autoplayPlugin is initialized
   if (!autoplayPlugin.current) {
     console.error("Autoplay plugin is not initialized.");
     return null;
@@ -21,29 +21,41 @@ const Features = () => {
 
   return (
     <div className="font-lora px-4">
-      <CustomContainer customWidth="max-w-[1600px]" className="py-[15vh] bg-primary rounded-2xl text-center justify-center items-center">
+      <CustomContainer
+        customWidth="max-w-[1600px]"
+        className="py-[15vh] bg-primary rounded-2xl text-center flex flex-col items-center"
+      >
+        {/* Judul Section */}
         <h1 className="title mb-[125px] text-text">Features</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        {/* Grid Fitur */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
           {features.map((feature) => (
             <div
               key={feature.id}
               className="flex flex-col text-text text-center items-center"
             >
+              {/* Gambar Fitur */}
               <Image
                 src={feature.imageLink}
-                alt="features image"
-                width="0"
-                height="0"
-                sizes="100vw"
+                alt={feature.title}
+                width={259}
+                height={259}
                 className="w-auto max-w-[259px] h-auto"
               />
+
+              {/* Judul Fitur */}
               <h1 className="text-text font-lora text-2xl mt-5">
                 {feature.title}
               </h1>
-              <p className="mt-6 mb-5">{feature.description}</p>
+
+              {/* Deskripsi Fitur */}
+              <p className="mt-6 mb-5 text-gray-600">{feature.description}</p>
+
+              {/* Link ke Halaman Detail */}
               <Link
                 className="text-xl font-normal text-secondary mt-auto flex items-center group transition-all ease-in-out"
-                href={`${feature.routeLink}`}
+                href={feature.routeLink}
               >
                 <p className="relative">
                   Baca Lebih Lanjut

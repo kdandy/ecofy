@@ -5,6 +5,7 @@ import CustomContainer from "../custom/CustomContainer";
 import Link from "next/link";
 import { CgArrowTopRight } from "react-icons/cg";
 import { FaArrowRight } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="px-3">
@@ -18,7 +19,7 @@ const Footer = () => {
               Ecofy
             </h1>
             <p className="text-[#f5f5f5] text-lg mt-2">
-              Ukur Jejak Kurangi Dampak
+              Langkah Hijau Menuju Keberlanjutan
             </p>
           </div>
           <div className="flex gap-12 sm:flex-row flex-col mt-12 sm:mt-0">
@@ -27,35 +28,35 @@ const Footer = () => {
                 Beranda
               </Link>
               <Link href="/tentang" className="hover:underline">
-                Tentang
+                Tentang Ecofy
               </Link>
               <Link href="/artikel" className="hover:underline">
-                Artikel
+                Artikel Keberlanjutan
               </Link>
             </div>
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-2">
               <Link href="/event" className="hover:underline">
-                Event
+                Event Lingkungan
               </Link>
               <Link
                 href="https://carbon.ecofy.dandy.my.id"
                 className="hover:underline"
               >
-                Hitung Jejak Karbonmu!
+                Hitung Jejak Karbon
               </Link>
-              <Link href="/change" className="hover:underline">
-                Change me
+              <Link href="/edukasi" className="hover:underline">
+                Edukasi & Panduan
               </Link>
             </div>
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-2">
-              <Link href="/change" className="hover:underline">
-                Change me
+              <Link href="/komunitas" className="hover:underline">
+                Komunitas
               </Link>
-              <Link href="/change" className="hover:underline">
-                Change me
+              <Link href="/partner" className="hover:underline">
+                Mitra Kami
               </Link>
-              <Link href="/change" className="hover:underline">
-                Change me
+              <Link href="/kontak" className="hover:underline">
+                Hubungi Kami
               </Link>
             </div>
           </div>
@@ -67,7 +68,7 @@ const Footer = () => {
           <div className="inline-block">
             <div className="w-full group cursor-pointer text-white z-20 relative flex items-center justify-between shadow-2xl bg-primaryShadow px-4 py-2 mb-2 rounded-full transition-all duration-300 group-hover:shadow-lg group-hover:bg-secondary">
               <p className="font-medium pr-[50px] text-lg ml-1 transition-all duration-300 group-hover:text-white">
-                Voulenteer Now
+                Jadi Relawan Sekarang
               </p>
               <button className="bg-primary group-hover:bg-secondary text-2xl p-2 rounded-full transition-all duration-300 text-secondary group-hover:text-white transform group-hover:scale-110">
                 <CgArrowTopRight className="block group-hover:hidden transition-all duration-300" />
