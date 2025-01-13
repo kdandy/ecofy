@@ -10,7 +10,7 @@ const Community = () => {
         <h1 className="text-3xl sm:text-4xl max-w-[770px] mb-16">
           Bergabunglah dengan komunitas kami dan jadilah bagian dari perubahan positif di dunia. Dengan lebih dari:
         </h1>
-        <h1 className="text-6xl sm:text-9xl mb-12">125,259</h1>
+        <h1 className="text-6xl sm:text-9xl mb-12">125,259+</h1>
         <div className="flex flex-col items-center gap-5">
           <h3 className="text-md sm:text-2xl font-medium">
             Orang sudah bergabung

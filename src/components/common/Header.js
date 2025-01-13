@@ -18,7 +18,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleLinkClick = () => {
-    // Menutup menu dengan sedikit delay setelah klik
     setTimeout(() => {
       setIsOpen(false);
     }, 150);

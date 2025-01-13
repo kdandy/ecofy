@@ -44,18 +44,18 @@ const Footer = () => {
               >
                 Hitung Jejak Karbon
               </Link>
-              <Link href="/edukasi" className="hover:underline">
+              <Link href="/#" className="hover:underline">
                 Edukasi & Panduan
               </Link>
             </div>
             <div className="text-[#f5f5f5] font-poppins text-md capitalize flex flex-col gap-2">
-              <Link href="/komunitas" className="hover:underline">
+              <Link href="/#" className="hover:underline">
                 Komunitas
               </Link>
-              <Link href="/partner" className="hover:underline">
+              <Link href="/#" className="hover:underline">
                 Mitra Kami
               </Link>
-              <Link href="/kontak" className="hover:underline">
+              <Link href="/#" className="hover:underline">
                 Hubungi Kami
               </Link>
             </div>

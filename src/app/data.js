@@ -262,7 +262,7 @@ export const events = [
             thumbnail: "https://i.imgur.com/w30yF3b.jpeg",
             text: "Event membersihkan Pantai Tirang di Semarang merupakan kegiatan peduli lingkungan yang bertujuan untuk menjaga kebersihan dan kelestarian pantai. Kegiatan ini melibatkan komunitas lokal, pelajar, dan masyarakat umum yang bersama-sama mengumpulkan sampah plastik, botol, dan limbah lainnya yang mencemari pantai. Selain membersihkan, event ini juga mengedukasi peserta tentang pentingnya mengurangi penggunaan plastik sekali pakai serta dampak negatif sampah terhadap ekosistem laut. Dengan semangat gotong-royong, acara ini menjadi langkah nyata dalam mendukung kelestarian lingkungan dan mempromosikan keindahan Pantai Tirang sebagai destinasi wisata yang bersih dan asri.",
             organizer: {
-              name: "ecofy",
+              name: "Ecofy",
               link: "/",
             },
           },
@@ -286,7 +286,7 @@ export const events = [
             thumbnail: "https://i.imgur.com/BKouPEs.png",
             text: "Event membersihkan Sungai Mebrok merupakan inisiatif lingkungan yang bertujuan untuk mengembalikan kejernihan dan kelestarian sungai dari ancaman pencemaran. Kegiatan ini melibatkan komunitas lingkungan, warga sekitar, pelajar, dan relawan yang bergotong-royong mengangkat sampah plastik, limbah rumah tangga, dan kotoran lainnya yang mencemari aliran sungai. Selain aksi bersih-bersih, acara ini juga menjadi momen edukasi tentang pentingnya menjaga kebersihan sungai, mengurangi limbah, dan dampaknya terhadap ekosistem air. Dengan partisipasi aktif masyarakat, event ini diharapkan mampu menciptakan perubahan positif dalam menjaga Sungai Mebrok agar tetap bersih dan sehat sebagai sumber kehidupan bagi lingkungan sekitarnya.",
             organizer: {
-              name: "ecofy",
+              name: "Ecofy",
               link: "/",
             },
           },
@@ -316,7 +316,7 @@ export const events = [
             thumbnail: "https://i.imgur.com/t93RYPK.jpeg",
             text: "Event membersihkan Pantai Maron merupakan kegiatan peduli lingkungan yang bertujuan untuk menjaga kebersihan dan keindahan pantai dari tumpukan sampah. Acara ini melibatkan komunitas peduli lingkungan, pelajar, dan masyarakat sekitar yang bekerja sama mengumpulkan sampah plastik, styrofoam, dan limbah lainnya yang mencemari area pantai. Selain kegiatan bersih-bersih, event ini juga memberikan edukasi tentang pentingnya menjaga kebersihan pantai, dampak sampah terhadap ekosistem laut, dan upaya mengurangi penggunaan plastik sekali pakai. Dengan semangat gotong-royong, kegiatan ini diharapkan dapat menciptakan kesadaran kolektif untuk melestarikan Pantai Maron sebagai destinasi wisata yang bersih, nyaman, dan asri.",
             organizer: {
-              name: "ecofy",
+              name: "Ecofy",
               link: "/",
             },
           },
@@ -340,7 +340,7 @@ export const events = [
             thumbnail: "https://i.imgur.com/8kUTMxA.jpeg",
             text: "Event penanaman pohon di Wisata Alam Wana Wisata Penggaron merupakan kegiatan lingkungan yang bertujuan untuk mendukung pelestarian hutan dan menjaga keseimbangan ekosistem di kawasan wisata tersebut. Acara ini melibatkan komunitas pecinta alam, pelajar, dan masyarakat sekitar yang bersama-sama menanam berbagai jenis pohon, seperti tanaman penghijauan dan endemik lokal, di area yang telah ditentukan. Selain aksi penanaman, kegiatan ini juga menjadi ajang edukasi tentang pentingnya menjaga kelestarian hutan, manfaat pohon bagi lingkungan, serta upaya mitigasi perubahan iklim. Dengan semangat gotong-royong, acara ini diharapkan dapat meningkatkan kesadaran masyarakat akan pentingnya menjaga kelestarian alam dan menjadikan Wisata Alam Penggaron sebagai kawasan hijau yang indah dan bermanfaat bagi generasi mendatang.",
             organizer: {
-              name: "ecofy",
+              name: "Ecofy",
               link: "/",
             },
           },
@@ -370,7 +370,7 @@ export const events = [
             thumbnail: "https://i.imgur.com/beVsyoA.png",
             text: "Event penanaman pohon di Hutan Wisata Tinjomoyo Semarang merupakan aksi peduli lingkungan yang bertujuan untuk menghijaukan kembali kawasan hutan wisata dan menjaga keberlanjutan ekosistemnya. Kegiatan ini melibatkan komunitas pecinta alam, pelajar, dan masyarakat lokal yang bersama-sama menanam berbagai jenis pohon, seperti tanaman keras dan endemik, di area yang membutuhkan penghijauan. Selain aksi penanaman, acara ini juga memberikan edukasi tentang pentingnya menjaga hutan sebagai paru-paru kota, manfaat pohon dalam menyerap karbon, serta upaya mencegah erosi dan perubahan iklim. Dengan semangat kolaborasi, kegiatan ini diharapkan dapat meningkatkan kesadaran akan pentingnya menjaga kelestarian Hutan Wisata Tinjomoyo sebagai kawasan hijau yang indah, lestari, dan bermanfaat bagi generasi mendatang.",
             organizer: {
-              name: "ecofy",
+              name: "Ecofy",
               link: "/",
             },
           },

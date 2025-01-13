@@ -61,15 +61,19 @@ const Hero = () => {
             <HeroCard1
               title="65%"
               description="Indonesia peringkat 6 jejak karbon dunia. Saatnya bertindak."
-              link="/donate-now"
+              link="/#"
               buttonText="Donasi"
             />
-            <HeroCard3 title="Aksi Nyata Bersama" />
+            <HeroCard3
+              title={
+                <span className="text-2xl sm:text-3xl">Aksi Nyata Bersama</span>
+              }
+            />
           </div>
 
           {/* ImageCard */}
           <ImageCard
-            link="/education"
+            link="/#"
             title="Edukasi"
             text="Pelajari cara menjaga lingkungan."
           />
@@ -81,7 +85,7 @@ const Hero = () => {
                 Bergabung dengan 1.000+ Relawan untuk Perubahan
               </span>
             }
-            link="/join"
+            link="/#"
             buttonText="Gabung"
           />
 
@@ -98,7 +102,7 @@ const Hero = () => {
               position="right"
               title="Temukan Peluang"
               description="Jelajahi aksi keberlanjutan."
-              link="/explore-more"
+              link="/#"
               buttonText="Jelajahi"
             />
             <HeroCard3

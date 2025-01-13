@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1><b>Ecofy</b></h1>
+</div>
 
-## Getting Started
+![Alt Website preview][image-preview]
 
-First, run the development server:
+## Pendahuluan
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Ecofy adalah proyek yang dibuat untuk kompetisi [Lomba ITC HMTI Udinus 2024][Web Development]. Tujuan utamanya adalah untuk menunjukkan kepada dunia betapa buruknya perubahan iklim. Ecofy memungkinkan Anda untuk memeriksa jejak karbon Anda. Anda dapat mencobanya di [ecofy.dandy.my.id][ecofy-link]
+
+## Daftar Isi
+
+- [Contributing](#-contributing)
+- [Code of Conduct](#-code-of-conduct)
+- [Technologies](#-technologies)
+- [Additional information](#-additional-information)
+- [License](#-license)
+
+## 👏 Contributing 
+
+Untuk melihat semua info tentang cara berkontribusi, kunjungi [CONTRIBUTING.md][contributing]
+
+## 💖 Code of Conduct          
+
+Ecofy telah mengadopsi Kode Etik yang kami harapkan untuk dipatuhi oleh para peserta proyek. Silakan baca [full text][code-of-conduct] sehingga Anda dapat memahami tindakan apa yang akan dan tidak akan ditoleransi.
+
+## 🖥️ Technologies
+
+Dalam proyek ini, kami menggunakan sejumlah besar teknologi modern seperti:
+
+- [Next.js][nextjs] dan [React][react]
+- [Tailwind CSS][tailwind]
+- [Postcss][postcss]
+
+## 📖 Additional information
+
+### 📋 Requirements
+
+[Node.js][node] dan [NPM][npm]
+
+### ⚙️ Packages Installation
+
+```shell
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 🚀 Starting the app 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```shell
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔗 Cloning the repository
 
-## Learn More
+```shell
+git clone https://github.com/kdandy/ecofy
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ecofy memiliki lisensi [MIT][mit] seperti yang dapat ditemukan pada file [LICENSE][license].
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+[mit]: https://opensource.org/license/mit/
+[license]: https://github.com/kdandy/ecofy/blob/master/LICENSE
+[node]: https://nodejs.org/en
+[npm]: https://www.npmjs.com/
+[postcss]: https://postcss.org/
+[contributing]: https://github.com/kdandy/pedulicarbon/blob/master/CONTRIBUTING.md
+[Lomba]: https://www.instagram.com/p/C6BnZSBSuys/?igsh=dW1wMm1hd2xvMDB5
+[image-preview]: https://github.com/kdandy/pedulicarbon/blob/master/public/preview.png
+[ecofy-link]: https://ecofy.dandy.my.id
+[nextjs]: https://nextjs.org/
+[react]: https://react.dev/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[tailwind]: https://tailwindcss.com
+[code-of-conduct]: https://github.com/kdandy/ecofy/blob/master/CODE_OF_CONDUCT.md
