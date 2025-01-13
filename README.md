@@ -62,16 +62,16 @@ Ecofy memiliki lisensi [MIT][mit] seperti yang dapat ditemukan pada file [LICENS
 
 
 [mit]: https://opensource.org/license/mit/
-[license]: https://github.com/kdandy/ecofy/blob/master/LICENSE
+[license]: https://github.com/kdandy/ecofy/blob/main/LICENSE
 [node]: https://nodejs.org/en
 [npm]: https://www.npmjs.com/
 [postcss]: https://postcss.org/
-[contributing]: https://github.com/kdandy/pedulicarbon/blob/master/CONTRIBUTING.md
-[Lomba]: https://www.instagram.com/p/C6BnZSBSuys/?igsh=dW1wMm1hd2xvMDB5
-[image-preview]: https://github.com/kdandy/ecofy/blob/master/public/preview.png
+[contributing]: https://github.com/kdandy/pedulicarbon/blob/main/CONTRIBUTING.md
+[Lomba]: https://www.instagram.com/p/DDla2tLPsmC/?img_index=1
+[image-preview]: https://github.com/kdandy/ecofy/blob/main/public/preview.png
 [ecofy-link]: https://ecofy.dandy.my.id
 [nextjs]: https://nextjs.org/
 [react]: https://react.dev/
 
 [tailwind]: https://tailwindcss.com
-[code-of-conduct]: https://github.com/kdandy/ecofy/blob/master/CODE_OF_CONDUCT.md
+[code-of-conduct]: https://github.com/kdandy/ecofy/blob/main/CODE_OF_CONDUCT.md
