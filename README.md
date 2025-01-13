@@ -2,7 +2,7 @@
   <h1><b>Ecofy</b></h1>
 </div>
 
-![Alt Website preview][image-preview]
+![Preview][image-preview]
 
 ## Pendahuluan
 
