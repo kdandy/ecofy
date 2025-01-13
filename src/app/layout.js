@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <head>
-        {/* Tambahkan link favicon jika ingin lebih eksplisit */}
         <link rel="icon" href="/faviconn.ico" />
       </head>
       <body className="font-poppins">

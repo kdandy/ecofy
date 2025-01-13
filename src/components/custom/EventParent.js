@@ -4,24 +4,20 @@ import EventCard from "./EventCard";
 const EventParent = ({ events }) => {
   return (
     <div className="flex flex-col">
-      {events.map((eventMonth) => (
-        <div key={eventMonth.event_id} className="flex flex-col">
-          <h1 className="font-bold text-5xl mt-2 font-lora capitalize">
-            {eventMonth.month}
-          </h1>
-          {eventMonth.eventsOnDate.map((eventOnDate) => (
-            <div key={eventOnDate.day}>
-              <h3 className="font-bold text-6xl">{eventOnDate.day}</h3>
-              {eventOnDate.events.map((event) => (
+      {events.map(({ event_id, month, eventsOnDate }) => (
+        <div key={event_id} className="flex flex-col">
+          <h1 className="font-bold text-5xl mt-2 font-lora capitalize">{month}</h1>
+          {eventsOnDate.map(({ day, events }) => (
+            <div key={day} className="mt-4">
+              <h3 className="font-bold text-6xl">{day}</h3>
+              {events.map(({ event_date_id, title, description, organizer, thumbnail }) => (
                 <EventCard
-                  key={event.event_date_id}
-                  title={event.title}
-                  description={event.description}
-                  organizer={event.organizer}
-                  link={`/event/${eventMonth.month.toLowerCase()}-${
-                    eventOnDate.day
-                  }-${event.event_date_id}`}
-                  thumbnail={event.thumbnail}
+                  key={event_date_id}
+                  title={title}
+                  description={description}
+                  organizer={organizer}
+                  link={`/event/${month.toLowerCase()}-${day}-${event_date_id}`}
+                  thumbnail={thumbnail}
                 />
               ))}
             </div>

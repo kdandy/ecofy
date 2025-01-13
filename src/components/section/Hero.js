@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
 import React from "react";
 import CustomContainer from "../custom/CustomContainer";
 import HeroCard1 from "../custom/HeroCard1";
@@ -39,20 +38,18 @@ const Hero = () => {
         {/* Headline */}
         <div className="max-w-[800px] mx-auto">
           <h1 className="text-4xl sm:text-5xl font-medium z-20 font-lora">
-            Ukur Jejak, Kurangi Dampak
+            Langkah Hijau untuk Masa Depan
           </h1>
           <p className="text-2xl sm:text-3xl mt-6 font-normal z-20 font-lora">
-            Kita bisa mengukur dan mengurangi dampak aktivitas untuk masa depan
-            yang lebih baik.
+            Bersama kita wujudkan bumi yang lebih hijau.
           </p>
           <div className="flex md:flex-row flex-col justify-center items-center mt-8 gap-4 z-20">
-          <Link
-            href="https://carbon.ecofy.dandy.my.id/"
-            className="capitalize bg-primary hover:bg-primary-foreground text-lg sm:text-2xl py-2 sm:py-3 px-6 sm:px-10 rounded-full transition ease-in-out duration-300"
-          >
-            Hitung Jejak Karbonmu!
-          </Link>
-
+            <Link
+              href="https://carbon.ecofy.dandy.my.id/"
+              className="capitalize bg-primary hover:bg-primary-foreground text-lg sm:text-2xl py-2 sm:py-3 px-6 sm:px-10 rounded-full transition ease-in-out duration-300"
+            >
+              Hitung Jejak Karbon
+            </Link>
           </div>
         </div>
 
@@ -63,49 +60,49 @@ const Hero = () => {
           <div className="flex flex-col items-center gap-3">
             <HeroCard1
               title="65%"
-              description="17 Thousand People Died, Thousands Injured, Houses and Buildings Destroyed. Turkey-Syria Grieves"
+              description="Indonesia peringkat 6 jejak karbon dunia. Saatnya bertindak."
               link="/donate-now"
-              buttonText="Donate now"
+              buttonText="Donasi"
             />
-            <HeroCard3 title="Let them be heard" />
+            <HeroCard3 title="Aksi Nyata Bersama" />
           </div>
 
           {/* ImageCard */}
           <ImageCard
-            link="/test"
-            title="Education"
-            text="Sponsor food, education to Orphans Kenya"
+            link="/education"
+            title="Edukasi"
+            text="Pelajari cara menjaga lingkungan."
           />
 
           {/* HeroCard2 (Center) */}
           <HeroCard2
             title={
               <span className="text-xl sm:text-2xl text-center block">
-                Join 1000+ People Volunteer
+                Bergabung dengan 1.000+ Relawan untuk Perubahan
               </span>
             }
-            link="/test"
-            buttonText="Join Community"
+            link="/join"
+            buttonText="Gabung"
           />
 
           {/* ImageCard */}
           <ImageCard
-            link="/test"
-            title="Education"
-            text="Sponsor food, education to Orphans Kenya"
+            link="/events"
+            title="Kegiatan"
+            text="Ikuti acara lingkungan sekitar Anda."
           />
 
           {/* HeroCard1 (Right) */}
           <div className="flex flex-col items-center gap-3">
             <HeroCard1
               position="right"
-              title="Explore more"
-              description="Your home for help"
+              title="Temukan Peluang"
+              description="Jelajahi aksi keberlanjutan."
               link="/explore-more"
-              buttonText="Explore"
+              buttonText="Jelajahi"
             />
             <HeroCard3
-              title={<span className="text-2xl sm:text-3xl">Your home for help</span>}
+              title={<span className="text-2xl sm:text-3xl">Bersama untuk Bumi</span>}
             />
           </div>
         </div>

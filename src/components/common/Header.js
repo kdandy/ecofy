@@ -27,7 +27,6 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-white border-b-2">
       <CustomContainer className="py-4 px-6 md:px-8 flex justify-between items-center">
-        {/* Logo */}
         <Link href="/">
           <h1 className="text-2xl md:text-3xl font-bold text-[#00432d] flex items-center gap-2">
             <Image
@@ -41,7 +40,6 @@ const Header = () => {
           </h1>
         </Link>
 
-        {/* Menu Desktop */}
         <ul className="hidden md:flex gap-6 lg:gap-9 text-base lg:text-xl">
           {["Beranda", "Tentang", "Artikel", "Event"].map((item, index) => (
             <li key={index} className="group relative">
