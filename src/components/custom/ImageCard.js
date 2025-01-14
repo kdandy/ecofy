@@ -2,14 +2,14 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-const ImageCard = ({ link, title, text }) => {
+const ImageCard = ({ link, title, text, imageLink }) => {
   return (
     <Link
       href={`${link}`}
       className="group relative text-left h-full min-h-[400px] 2xl:max-h-[350px] mt-[35px] rounded-[45px] overflow-hidden shadow-lg max-w-[350px] mx-auto"
     >
       <Image
-        src="/features1.jpg"
+        src={`${imageLink}`}
         alt="Orphans Kenya"
         width="0"
         height="0"

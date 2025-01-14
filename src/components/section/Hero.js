@@ -55,7 +55,6 @@ const Hero = () => {
 
         {/* Cards Section */}
         <div className="grid 2xl:grid-cols-5 sm:grid-cols-2 mt-20 2xl:mt-0 grid-cols-1 items-end gap-3">
-
           {/* HeroCard1 (Left) */}
           <div className="flex flex-col items-center gap-3">
             <HeroCard1
@@ -76,6 +75,7 @@ const Hero = () => {
             link="/#"
             title="Edukasi"
             text="Pelajari cara menjaga lingkungan."
+            imageLink="/features1.jpg"
           />
 
           {/* HeroCard2 (Center) */}
@@ -94,6 +94,7 @@ const Hero = () => {
             link="/events"
             title="Kegiatan"
             text="Ikuti acara lingkungan sekitar Anda."
+            imageLink="/features2.png"
           />
 
           {/* HeroCard1 (Right) */}
@@ -106,7 +107,9 @@ const Hero = () => {
               buttonText="Jelajahi"
             />
             <HeroCard3
-              title={<span className="text-2xl sm:text-3xl">Bersama untuk Bumi</span>}
+              title={
+                <span className="text-2xl sm:text-3xl">Bersama untuk Bumi</span>
+              }
             />
           </div>
         </div>
