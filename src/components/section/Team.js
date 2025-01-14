@@ -12,13 +12,13 @@ const MeetOurTeam = () => {
     {
       name: "Alif Putra Wibowo",
       role: "Frontend Developer",
-      image: "/team/com11.png",
+      image: "/team/alif.jpg",
       instagram: "https://instagram.com/alifwbwo",
     },
     {
       name: "Alan Nuril Fuadi",
       role: "Project Manager",
-      image: "/team/com11.png",
+      image: "/team/alan.jpg",
       instagram: "https://instagram.com/alannn_nf",
     },
   ];

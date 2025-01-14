@@ -15,7 +15,7 @@ const EventsPage = () => {
             Events lingkungan terkini, pada tahun 2025, untuk request event
             silahkan klik tombol di bawah.
           </h2>
-          <Link href={`/requestEvent`}>
+          <Link href={`/#`}>
             <Button size="lg" className="text-text">
               Request Event
             </Button>

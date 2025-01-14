@@ -81,7 +81,7 @@ export default async function EventPage({ params }) {
         <h2 className="text-2xl mt-1 font-secondary font-lora">
           Location: <span className="text-secondary">{event.location}</span>
         </h2>
-        <Link href={`/requestEvent`} target="_">
+        <Link href={`/#`} target="_">
           <Button size="lg" className="text-text mt-5 text-lg">
             Sign Up Untuk Event
           </Button>
