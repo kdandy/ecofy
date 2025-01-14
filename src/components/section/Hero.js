@@ -75,7 +75,7 @@ const Hero = () => {
             link="/#"
             title="Edukasi"
             text="Pelajari cara menjaga lingkungan."
-            imageLink="/features1.jpg"
+            imageLink="/features2.png"
           />
 
           {/* HeroCard2 (Center) */}
@@ -94,7 +94,7 @@ const Hero = () => {
             link="/events"
             title="Kegiatan"
             text="Ikuti acara lingkungan sekitar Anda."
-            imageLink="/features2.png"
+            imageLink="/features1.jpg"
           />
 
           {/* HeroCard1 (Right) */}
