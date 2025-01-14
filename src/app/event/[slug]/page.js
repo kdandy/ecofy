@@ -92,7 +92,7 @@ export default async function EventPage({ params }) {
           width="0"
           height="0"
           sizes="100vw"
-          className="w-auto max-w-[50%] h-auto rounded-lg mt-4"
+          className="w-full lg:max-w-[50%] h-auto rounded-lg mt-4"
         />
         <p className="text-lg mt-4 text-text">{event.text}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
