@@ -24,7 +24,6 @@ export async function generateStaticParams() {
 
 // Main page for the event details
 export default async function EventPage({ params }) {
-  // Make sure to await the params for async handling
   const [monthSlug, day, eventId] = await params.slug.split("-");
 
   // Find the specific month
